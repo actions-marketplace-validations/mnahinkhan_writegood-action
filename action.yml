@@ -4,3 +4,6 @@ description: 'Run writegood on all *.md files'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: align-left
+  color: gray-dark
