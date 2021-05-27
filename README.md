@@ -10,5 +10,20 @@ None
 None
 
 ## Example usage
+```
+name: Check English Prose
+on: [push]
 
-uses: mnahinkhan/writegood-action@master
+jobs:
+
+  check_spell_job:
+    runs-on: ubuntu-latest
+    name: Check English prose
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Check spelling
+        id: spell_check
+        uses: mnahinkhan/writegood-action@master
+```
