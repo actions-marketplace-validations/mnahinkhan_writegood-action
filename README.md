@@ -11,4 +11,4 @@ None
 
 ## Example usage
 
-uses: mnahinkhan/writegood-action@v1
+uses: mnahinkhan/writegood-action@master
